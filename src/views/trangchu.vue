@@ -1,6 +1,6 @@
 <script setup>
-import input from '../components/playout/input.vue'
+import navar from '../components/playout/navar.vue'
 </script>
 <template>
-    <input/>
+    <navar/>
 </template>
