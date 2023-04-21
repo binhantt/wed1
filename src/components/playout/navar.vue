@@ -4,7 +4,7 @@
        <li><a href="">trang chủ</a></li>
        <li><a href="">tài liệu</a> 
             <ul class="an10-an100-100">
-                <li><a>anh văn</a></li>
+                <li ><a>anh văn</a></li>
                 <li><a>tự nhiên</a>
                     <ul class="an10-an100-100-100-1">
                         <li><a href="">toán </a></li>
@@ -62,15 +62,42 @@ a{
     justify-content: space-between;
 }
 ul.an10-an100-100{
-    border: 1px solid black;
     padding: 0%;
-    width: 140px;
-    height: 200px;
     display: none;
+    position: absolute;
+    right: 888px;
+    margin: 5px;
+    transition: all 0.2s ease-in;
 }
-
-ul.an10-an100-100:hover{
+.an10-an100-100 li{
+    margin-left: 0px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.an-an100>li:hover>ul{
     display:block;
+}
+.an10-an100-100-100-1{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    left: 65px;
+    transition:4s;
+    
+}
+.an-an100 ul>li:hover>ul{
+    display: block;
+    
+}
+.an10-an100-100-100-2{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    left: 65px;
 }
 </style>
 <script>
