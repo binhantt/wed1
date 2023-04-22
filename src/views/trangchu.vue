@@ -4,3 +4,8 @@ import navar from '../components/playout/navar.vue';
 <template>
     <navar/>
 </template>
+<style>
+ body{
+    margin: 0%;
+ }
+</style>
