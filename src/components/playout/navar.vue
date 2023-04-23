@@ -27,20 +27,10 @@
             <ul class="an100-100">
                     <li><a>anh văn</a></li>
                     <li><a>tự nhiên</a>
-                        <ul class="an10-an100-100-100-3">
-                            <li><a href="">toán </a></li>
-                            <li><a href="">li</a></li>
-                            <li><a href="">hóa</a></li>
-                            <li><a href="">sinh</a></li>
-                        </ul>
+                       
                     </li>
                     <li><a>xa hội</a>
-                        <ul class="an10-an100-100-100-4">
-                            <li><a href="">sữ </a></li>
-                            <li><a href="">địa</a></li>
-                            <li><a href="">cd</a></li>
-                            <li><a href="">ngữ văn</a></li>
-                        </ul>
+                        
                     </li>
                 </ul>
         </li>
@@ -60,6 +50,58 @@ a{
 }
 .an-an100 a{
     color: black;
+}
+.an-an100{
+    display: flex;
+    height: 50px;
+    margin: 0px;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #CD2929 0%, rgba(184, 61, 61, 0) 100%);
+    
+    font-size: 20px;
+}
+ul.an10-an100-100{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    right: 848px;
+    margin: 5px;
+    transition:all 0.2s linear;
+}
+.an10-an100-100 li{
+    margin-left: 0px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.an-an100>li:hover>ul{
+    display:block;
+}
+.an10-an100-100-100-1{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 32px;
+    left: 118px;
+    transition:4s;
+    
+}
+.an-an100 ul>li:hover>ul{
+    display: block;
+    
+}
+.an10-an100-100-100-2{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    left: 65px;
+    width: 200px;
+    align-items: center;
+}
+.an10-an100-100-100-3{
+    left: 69px;
 }
 </style>
 <script>
