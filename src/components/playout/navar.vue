@@ -60,6 +60,7 @@ a{
 }
 .an-an100 a{
     color: black;
+    cursor: pointer;
 }
 .an-an100{   
     border:none;
